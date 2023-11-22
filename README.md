@@ -17,3 +17,39 @@ The script processes messages from a CSV file, tokenizes them using BERT languag
 
    ```bash
    python message_clustering.py
+Output:
+The script will generate the following output files:
+sparse_matrix.npz: Saved sparse matrix after BERT processing.
+Messages_Labels.csv: CSV file containing clustered messages and their labels.
+Installation
+Ensure you have Python 3.x installed.
+
+Install the required libraries:
+
+bash
+Copy code
+pip install pandas scikit-learn transformers scipy numpy
+Configuration
+Adjust the parameters inside the Python script for tokenization, dimensionality reduction, and clustering if needed.
+File Structure
+message_clustering.py: The main Python script for message processing and clustering.
+Messages.csv: Input CSV file containing messages.
+sparse_matrix.npz: Saved sparse matrix after BERT processing.
+Messages_Labels.csv: Output CSV file containing clustered messages and their labels.
+Acknowledgments
+This project uses the BERT model from Transformers by Hugging Face.
+HDBSCAN library is used for clustering.
+Contributions
+Contributions, issues, and feature requests are welcome! Feel free to create issues or pull requests.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+sql
+Copy code
+
+Copy the above content and paste it into your `README.md` file in your GitHub repository. Feel free to adjust or expand the sections as needed to best describe your project or provide additional instructions.
+
+
+
+
