@@ -1,4 +1,3 @@
-# Clustering-Messages-using-Bert
 # Message Clustering using BERT and HDBSCAN
 
 This Python script clusters messages related to a specific dataset using BERT for tokenization and HDBSCAN for clustering.
